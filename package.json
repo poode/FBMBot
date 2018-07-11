@@ -1,0 +1,23 @@
+{
+  "name": "facebookbot",
+  "version": "0.0.1",
+  "description": "facebook messanger bot for general usages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poode/FBMBot.git"
+  },
+  "keywords": [
+    "facebook",
+    "bot"
+  ],
+  "author": "Abdulazeem (poode@github)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poode/FBMBot/issues"
+  },
+  "homepage": "https://github.com/poode/FBMBot#readme"
+}

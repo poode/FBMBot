@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/poode/FBMBot/issues"
   },
-  "homepage": "https://github.com/poode/FBMBot#readme"
+  "homepage": "https://github.com/poode/FBMBot#readme",
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "request": "^2.87.0",
+    "save": "^2.3.2"
+  }
 }

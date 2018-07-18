@@ -2,6 +2,7 @@ const express = require(`express`);
 const bodyParser = require(`body-parser`);
 
 const config = require(`./config/config`);
+const PORT = process.env.PORT  || config.port
 
 const app = express();
 
@@ -18,4 +19,4 @@ const messageWebhookController = require(`./controllers/messageWebhook`);
 app.get(`/`, verificationController);
 app.post(`/`, messageWebhookController);
 
-app.listen(config.port, () => console.log(`Webhook server is listening, port ${config.port}`));
+app.listen(PORT, () => console.log(`Webhook server is listening, port ${ PORT }`));

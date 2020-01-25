@@ -4,8 +4,8 @@
   "description": "facebook messanger bot for general usages",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js",
-    "stop": "pm2 stop index.js"
+    "start": "node index.js",
+    "start:dev": "nodemon stop index.js"
   },
   "repository": {
     "type": "git",
@@ -22,14 +22,14 @@
   },
   "homepage": "https://github.com/poode/FBMBot#readme",
   "dependencies": {
-    "apiai": "^4.0.3",
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "pm2": "^3.0.0",
-    "request": "^2.87.0",
-    "save": "^2.3.2"
+    "request": "^2.87.0"
   },
   "engines": {
     "node": "8.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }

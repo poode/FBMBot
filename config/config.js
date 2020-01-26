@@ -9,7 +9,7 @@ module.exports = {
     API_AI_TOKEN: `Dialogflow token`,
 
     // FACEBOOK_ACCESS_TOKEN you can get from your facebook app here "Token Generation" in messenger settings page
-    FACEBOOK_ACCESS_TOKEN: `EAAMs7SQVK3EBAIZBPU3LTkqJEKMiyFb8ub5AbGfC2tAE1wqIKIOFlydLLhnjXYPayEedsjoZCDBdS5GRCGn3fe3Sr66y30XiViBH4ZA6r9dfZCFlBI6ZCds5aLsmGVYyUvYAY27acHqnc4bWnYw11wqKYqTx8XEqSE06MZBTyib71gEWKQ4VO5egqCLknDG5IZD`,
+    FACEBOOK_ACCESS_TOKEN: `EAAMs7SQVK3EBAFkdYwRTGcTjssAPPDcSFWNkDZCS6cZCAJvGgVcEJVIhwZAC2PoCnFMMlb1hgNAXtxEBI3BDhxiUIPkTujftF695OE2ZBHll3GOuC1iqGDdlqJU1SZCCFdfFXTbPGdeZCI45iiZCT9IzdHMWa32KL6vb6ZAR8eZB6PSjf7FYRSA5sIJ8ijiabawwZD`,
 
     //session ID identifed by Dialogflow Agent API you can use any
     sessionID: `any string`,
